@@ -34,6 +34,7 @@
                             @method('delete')
                             <button>Eliminar</button>
                         </form>
+                        <a href="{{route('courses.show', $course->id)}}">Detalle</a>
                     </td>
                 </tr>
                 @endforeach
